@@ -1,0 +1,23 @@
+/* styles.css - Custom Styling */
+body {
+  background: linear-gradient(to bottom right, #5b21b6, #1e3a8a);
+}
+
+.card {
+  transition: transform 0.4s ease, box-shadow 0.9s ease;
+}
+
+.card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 8px 20px rgb(41, 255, 237);
+}
+
+input:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgb(255, 255, 255);
+}
+
+button:hover {
+  background-color: #b3a5f3;
+  color: #7a40d0;
+}
